@@ -109,7 +109,15 @@
   color: #ff0000;
 }
 
+.insta:hover {
+  color: #ff0000;
+}
+
 .linkedin:hover {
+  color: #0077b5;
+}
+
+.scholar:hover {
   color: #0077b5;
 }
 

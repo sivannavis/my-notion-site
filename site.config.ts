@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Siwen (Sivan) Ding',
-  domain: 'sivand.notion.site',
+  domain: 'https://www.sivan.fun',
   author: 'Siwen (Sivan) Ding',
 
   // open graph metadata (optional)
@@ -20,6 +20,8 @@ export default siteConfig({
   twitter: 'NavissivanD',
   github: 'sivannavis',
   linkedin: 'sivanding',
+  scholar: '8MbQVPsAAAAJ',
+  insta: '_cfbdsir2149_0403',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -42,11 +44,11 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/foo': '067dd719a912471ea9a3ac10710e7fdf',
+    '/bar': '0be6efce9daf42688f65c76b89f8eb27'
+  },
+  // pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
@@ -55,11 +57,19 @@ export default siteConfig({
   // navigationLinks: [
   //   {
   //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
+  //     pageId: '9fb4d37f1fe44c6d85e88bc5c521eb4f#cad6f65a50ea49caaae3fee40c7ad4a6'
   //   },
   //   {
   //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+  //     pageId: '9fb4d37f1fe44c6d85e88bc5c521eb4f#77bb0635db924f6596e26e293be6f1ab'
+  //   },
+  //   {
+  //     title: 'Projects',
+  //     pageId: '9fb4d37f1fe44c6d85e88bc5c521eb4f#6dd2ef4edf9242f3b3e778f792dbc16f'
+  //   },
+  //   {
+  //     title: 'Personal System',
+  //     url: '9fb4d37f1fe44c6d85e88bc5c521eb4f#3c46190aa94f41b4bf80934212d44780'
   //   }
   // ]
 })

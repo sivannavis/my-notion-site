@@ -3,6 +3,7 @@ import * as React from 'react'
 import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
+import { FaGoogle } from '@react-icons/all-files/fa/FaGoogle'
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
@@ -14,6 +15,7 @@ import * as config from '@/lib/config'
 import { useDarkMode } from '@/lib/use-dark-mode'
 
 import styles from './styles.module.css'
+import {FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
 
 // TODO: merge the data and icons from PageSocial with the social links in Footer
 
@@ -108,6 +110,30 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaLinkedin />
+          </a>
+        )}
+
+        {config.scholar && (
+          <a
+            className={styles.scholar}
+            href={`https://scholar.google.com/citations?user=${config.scholar}`}
+            title={`Google Scholar ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaGoogle />
+          </a>
+        )}
+
+        {config.insta && (
+          <a
+            className={styles.insta}
+            href={`https://www.instagram.com/${config.insta}`}
+            title={`Instagram ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaInstagram />
           </a>
         )}
 

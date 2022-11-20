@@ -93,6 +93,20 @@
   border-color: #0077b5;
 }
 
+.scholar .actionBgPane {
+  background: #0077b5;
+}
+.scholar:hover {
+  border-color: #0077b5;
+}
+
+.insta .actionBgPane {
+  background: #FF0000;
+}
+.insta:hover {
+  border-color: #FF0000;
+}
+
 .github .actionBgPane {
   background: #c9510c;
 }
