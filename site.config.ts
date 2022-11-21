@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Siwen (Sivan) Ding',
-  domain: 'https://www.sivan.fun',
+  domain: 'sivan.fun',
   author: 'Siwen (Sivan) Ding',
 
   // open graph metadata (optional)
@@ -52,17 +52,17 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: '9fb4d37f1fe44c6d85e88bc5c521eb4f#cad6f65a50ea49caaae3fee40c7ad4a6'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '9fb4d37f1fe44c6d85e88bc5c521eb4f#77bb0635db924f6596e26e293be6f1ab'
-  //   },
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Home Page',
+      pageId: '9fb4d37f1fe44c6d85e88bc5c521eb4f'
+    },
+    // {
+    //   title: 'CV',
+    //   pageId: '~./#f6ac6df9d4c941cf820afb6a157ec2b3'
+    // },
   //   {
   //     title: 'Projects',
   //     pageId: '9fb4d37f1fe44c6d85e88bc5c521eb4f#6dd2ef4edf9242f3b3e778f792dbc16f'
@@ -71,5 +71,5 @@ export default siteConfig({
   //     title: 'Personal System',
   //     url: '9fb4d37f1fe44c6d85e88bc5c521eb4f#3c46190aa94f41b4bf80934212d44780'
   //   }
-  // ]
+  ]
 })

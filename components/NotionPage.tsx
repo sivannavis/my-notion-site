@@ -189,8 +189,10 @@ export const NotionPage: React.FC<types.PageProps> = ({
   //   parsePageId(block?.id) === parsePageId(site?.rootNotionPageId)
   const isBlogPost =
     block?.type === 'page' && block?.parent_table === 'collection'
+  // const isBlogPost = 'ture'
 
-  const showTableOfContents = !!isBlogPost
+  // const showTableOfContents = !!isBlogPost
+  // const showTableOfContents = "true"
   const minTableOfContentsItems = 3
 
   const pageAside = React.useMemo(
@@ -269,7 +271,8 @@ export const NotionPage: React.FC<types.PageProps> = ({
         fullPage={!isLiteMode}
         previewImages={!!recordMap.preview_images}
         showCollectionViewDropdown={false}
-        showTableOfContents={showTableOfContents}
+        // showTableOfContents={showTableOfContents}
+        showTableOfContents={true}
         minTableOfContentsItems={minTableOfContentsItems}
         defaultPageIcon={config.defaultPageIcon}
         defaultPageCover={config.defaultPageCover}
