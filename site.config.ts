@@ -22,6 +22,7 @@ export default siteConfig({
   linkedin: 'sivanding',
   scholar: '8MbQVPsAAAAJ',
   insta: '_cfbdsir2149_0403',
+  bandcamp: 'wavefunction',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -59,10 +60,10 @@ export default siteConfig({
       title: 'Home Page',
       pageId: '9fb4d37f1fe44c6d85e88bc5c521eb4f'
     },
-    // {
-    //   title: 'CV',
-    //   pageId: '~./#f6ac6df9d4c941cf820afb6a157ec2b3'
-    // },
+    {
+      title: 'Note Databases',
+      pageId: '306ed3dbbfc54773a9ecd8c09f1d8a47'
+    },
   //   {
   //     title: 'Projects',
   //     pageId: '9fb4d37f1fe44c6d85e88bc5c521eb4f#6dd2ef4edf9242f3b3e778f792dbc16f'

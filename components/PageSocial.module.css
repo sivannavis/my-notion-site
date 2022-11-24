@@ -107,6 +107,13 @@
   border-color: #FF0000;
 }
 
+.bandcamp .actionBgPane {
+  background: #0077b5;
+}
+.bandcamp:hover {
+  border-color: #0077b5;
+}
+
 .github .actionBgPane {
   background: #c9510c;
 }

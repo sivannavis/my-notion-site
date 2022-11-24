@@ -4,6 +4,7 @@ import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaGoogle } from '@react-icons/all-files/fa/FaGoogle'
+import { FaBandcamp } from "@react-icons/all-files/fa/FaBandcamp"
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
@@ -134,6 +135,18 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaInstagram />
+          </a>
+        )}
+
+        {config.bandcamp && (
+          <a
+            className={styles.bandcamp}
+            href={`https://${config.bandcamp}.bandcamp.com/`}
+            title={`BandCamp ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaBandcamp />
           </a>
         )}
 

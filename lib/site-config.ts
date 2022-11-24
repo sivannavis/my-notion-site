@@ -13,6 +13,7 @@ export interface SiteConfig {
   twitter?: string
   github?: string
   linkedin?: string
+  bandcamp?: string
   scholar?: string
   insta?: string
   newsletter?: string
