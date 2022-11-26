@@ -57,20 +57,20 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'Home Page',
+      title: 'Home',
       pageId: '9fb4d37f1fe44c6d85e88bc5c521eb4f'
     },
     {
-      title: 'Note Databases',
+      title: 'Projects',
+      pageId: '3f4ccaed96c540beb778140c36945dbb'
+    },
+    {
+      title: 'Music',
+      url: '5038cf6fecd142499c0e666029e0bc99'
+    },
+    {
+      title: 'SideNotes',
       pageId: '306ed3dbbfc54773a9ecd8c09f1d8a47'
     },
-  //   {
-  //     title: 'Projects',
-  //     pageId: '9fb4d37f1fe44c6d85e88bc5c521eb4f#6dd2ef4edf9242f3b3e778f792dbc16f'
-  //   },
-  //   {
-  //     title: 'Personal System',
-  //     url: '9fb4d37f1fe44c6d85e88bc5c521eb4f#3c46190aa94f41b4bf80934212d44780'
-  //   }
   ]
 })
