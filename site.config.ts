@@ -62,7 +62,8 @@ export default siteConfig({
     },
     {
       title: 'Projects',
-      pageId: '3f4ccaed96c540beb778140c36945dbb'
+      url: 'http://sivan.fun/3f4ccaed96c540beb778140c36945dbb',
+      // pageId: '3f4ccaed96c540beb778140c36945dbb'
     },
     {
       title: 'Music',
