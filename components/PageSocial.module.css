@@ -94,31 +94,31 @@
 }
 
 .scholar .actionBgPane {
-  background: #0077b5;
+  background: #4285F4;
 }
 .scholar:hover {
-  border-color: #0077b5;
+  border-color: #4285F4;
 }
 
 .insta .actionBgPane {
-  background: #FF0000;
+  background: #8a3ab9;
 }
 .insta:hover {
-  border-color: #FF0000;
+  border-color: #8a3ab9;
 }
 
 .bandcamp .actionBgPane {
-  background: #0077b5;
+  background: #d0e0e3;
 }
 .bandcamp:hover {
-  border-color: #0077b5;
+  border-color: #d0e0e3;
 }
 
 .github .actionBgPane {
-  background: #c9510c;
+  background: #0a192f;
 }
 .github:hover {
-  border-color: #c9510c;
+  border-color: #0a192f;
 }
 
 .youtube .actionBgPane {

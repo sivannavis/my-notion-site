@@ -4,6 +4,7 @@ import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaGoogle } from '@react-icons/all-files/fa/FaGoogle'
+import {FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
 import { FaBandcamp } from "@react-icons/all-files/fa/FaBandcamp"
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
@@ -16,7 +17,6 @@ import * as config from '@/lib/config'
 import { useDarkMode } from '@/lib/use-dark-mode'
 
 import styles from './styles.module.css'
-import {FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
 
 // TODO: merge the data and icons from PageSocial with the social links in Footer
 

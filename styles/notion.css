@@ -8,7 +8,7 @@
  */
 
 .notion {
-  --notion-max-width: 960px; /*change blog page size here*/
+  --notion-max-width: 840px; /*change blog page size here*/
   --notion-header-height: 54px;
 }
 

@@ -66,7 +66,7 @@ export default siteConfig({
     },
     {
       title: 'Music',
-      url: '5038cf6fecd142499c0e666029e0bc99'
+      pageId: '5038cf6fecd142499c0e666029e0bc99'
     },
     {
       title: 'SideNotes',
