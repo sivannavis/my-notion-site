@@ -74,5 +74,9 @@ export default siteConfig({
       title: 'SideNotes',
       pageId: '306ed3dbbfc54773a9ecd8c09f1d8a47'
     },
+    {
+      title: 'CV',
+      pageId: '750d1e96c40d4f698fc1bb276e3fdf78'
+    }
   ]
 })
