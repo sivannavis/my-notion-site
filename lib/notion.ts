@@ -6,7 +6,7 @@ import pMemoize from 'p-memoize'
 import {
   isPreviewImageSupportEnabled,
   navigationLinks,
-  navigationStyle
+  navigationStyle, rootNotionPageId
 } from './config'
 import { notion } from './notion-api'
 import { getPreviewImageMap } from './preview-images'
@@ -39,8 +39,8 @@ const getNavigationLinkPages = pMemoize(
 
 export async function getPage(pageId: string): Promise<ExtendedRecordMap> {
   let recordMap = await notion.getPage(pageId)
-
-  if (navigationStyle !== 'default') {
+  // only root page render navigation map
+  if (navigationStyle !== 'default' && rootNotionPageId == pageId) {
     // ensure that any pages linked to in the custom navigation header have
     // their block info fully resolved in the page record map so we know
     // the page title, slug, etc.
