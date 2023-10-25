@@ -7,15 +7,15 @@ module.exports = withBundleAnalyzer({
   staticPageGenerationTimeout: 300,
   images: {
     domains: [
-      'www.notion.so',
-      'notion.so',
+      'https://www.notion.so',
+      'https://notion.so',
       'images.unsplash.com',
       'pbs.twimg.com',
       'abs.twimg.com',
       's3.us-west-2.amazonaws.com',
       'transitivebullsh.it',
-      'sivan.fun',
-      'www.sivan.fun',
+      'https://sivan.fun',
+      'https://www.sivan.fun',
       'file.notion.so'
     ],
     formats: ['image/avif', 'image/webp'],
