@@ -10,8 +10,8 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Siwen (Sivan) Ding',
-  domain: 'sivan.fun',
-  author: 'Siwen (Sivan) Ding',
+  domain: 'www.sivan.fun',
+  author: 'Sivan',
 
   // open graph metadata (optional)
   description: 'Siwen Ding Personal Website',

@@ -4,19 +4,17 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 module.exports = withBundleAnalyzer({
-  staticPageGenerationTimeout: 300,
+  staticPageGenerationTimeout: 1000,
   images: {
     domains: [
       'https://www.notion.so',
       'https://notion.so',
+      'www.notion.so',
       'images.unsplash.com',
-      'pbs.twimg.com',
-      'abs.twimg.com',
       's3.us-west-2.amazonaws.com',
-      'transitivebullsh.it',
-      'https://sivan.fun',
-      'https://www.sivan.fun',
-      'file.notion.so'
+      'www.sivan.fun',
+      'file.notion.so',
+      'www.sivand.notion.site',
     ],
     formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,
