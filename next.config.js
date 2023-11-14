@@ -12,6 +12,7 @@ module.exports = withBundleAnalyzer({
       'www.notion.so',
       'images.unsplash.com',
       's3.us-west-2.amazonaws.com',
+      'transitivebullsh.it',
       'www.sivan.fun',
       'file.notion.so',
       'www.sivand.notion.site',
