@@ -62,7 +62,7 @@ export default siteConfig({
       pageId: '9fb4d37f1fe44c6d85e88bc5c521eb4f'
     },
     {
-      title: 'About',
+      title: 'Research',
       url: 'http://sivannavis.github.io'
     },
     {
